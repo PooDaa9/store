@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الإكسسوارات | بوده بلايستشن</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1 class="logo">بوده بلايستشن</h1>
+            <button id="lang-toggle" onclick="toggleLanguage()">English</button>
+        </div>
+        <nav>
+            <a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+            <a href="accessories.html" class="active" data-ar="الإكسسوارات" data-en="Accessories">الإكسسوارات</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section" style="text-align: center; margin-top: 50px;">
+            <h2 style="color: var(--neon-blue); font-size: 2.5rem; margin-bottom: 20px;" data-ar="الإكسسوارات والدراعات" data-en="Accessories & Controllers">الإكسسوارات والدراعات</h2>
+            <p style="font-size: 1.2rem; color: var(--text-muted); margin-bottom: 30px;" data-ar="نعمل حالياً على إضافة قائمة الإكسسوارات المتوفرة لدينا (دراعات، أذرع، وأكثر)." data-en="We are currently adding the list of available accessories (controllers, joysticks, and more).">
+                نعمل حالياً على إضافة قائمة الإكسسوارات المتوفرة لدينا (دراعات، أذرع، وأكثر).
+            </p>
+            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                <a href="https://wa.me/201278566009" target="_blank" class="btn-whatsapp" style="padding: 15px 30px; font-size: 1.2rem;" data-ar="للاستفسار واتساب" data-en="Inquire via WhatsApp">للاستفسار واتساب</a>
+                <a href="tel:01278566009" class="btn-primary" style="padding: 15px 30px; font-size: 1.2rem; background: var(--call-red);" data-ar="اتصل بنا" data-en="Call Us">اتصل بنا</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

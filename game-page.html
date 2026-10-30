@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جاري التجهيز | بوده بلايستشن</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1 class="logo">بوده بلايستشن</h1>
+            <button id="lang-toggle" onclick="toggleLanguage()">English</button>
+        </div>
+        <nav>
+            <a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section" style="text-align: center; margin-top: 50px;">
+            <h2 id="consoleTitle" style="color: var(--neon-blue); font-size: 2.5rem; margin-bottom: 20px;">جاري التجهيز</h2>
+            <p style="font-size: 1.2rem; color: var(--text-muted); margin-bottom: 30px;" data-ar="نحن نعمل على تجهيز مكتبة الألعاب لهذا الجهاز قريباً. يمكنك التواصل معنا للاستفسار عن توفر ألعاب معينة." data-en="We are currently preparing the game library for this console. You can contact us to inquire about specific games.">
+                نحن نعمل على تجهيز مكتبة الألعاب لهذا الجهاز قريباً. يمكنك التواصل معنا للاستفسار عن توفر ألعاب معينة.
+            </p>
+            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                <a href="https://wa.me/201278566009" target="_blank" class="btn-whatsapp" style="padding: 15px 30px; font-size: 1.2rem;" data-ar="راسلنا على واتساب" data-en="WhatsApp Us">راسلنا على واتساب</a>
+                <a href="tel:01278566009" class="btn-primary" style="padding: 15px 30px; font-size: 1.2rem; background: var(--call-red);" data-ar="اتصل بنا" data-en="Call Us">اتصل بنا</a>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // كود بيقرأ اسم الجهاز من الرابط ويظهره في العنوان
+        const urlParams = new URLSearchParams(window.location.search);
+        const consoleName = urlParams.get('console');
+        const titleElement = document.getElementById('consoleTitle');
+        
+        if (consoleName) {
+            const names = {
+                'ps3': 'PlayStation 3',
+                'ps4': 'PlayStation 4',
+                'ps5': 'PlayStation 5',
+                'xbox360': 'Xbox 360',
+                'wii': 'Nintendo Wii',
+                'psp': 'PlayStation PSP'
+            };
+            titleElement.innerText = names[consoleName] + ' - قريباً';
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
