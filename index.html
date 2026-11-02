@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوده بلايستشن | Boda PlayStation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1 class="logo">بوده بلايستشن</h1>
+            <button id="lang-toggle" onclick="toggleLanguage()">English</button>
+        </div>
+        <nav>
+            <a href="index.html" class="active" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+            <a href="#about" data-ar="عن المحل" data-en="About">عن المحل</a>
+            <a href="#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- قسم الترحيب -->
+        <section class="hero">
+            <div class="hero-text">
+                <h2 data-ar="أهلاً بيك في بوده بلايستشن!" data-en="Welcome to Boda PlayStation!">أهلاً بيك في بوده بلايستشن!</h2>
+                <p data-ar="اختار القسم اللي عايز تتصفحه من تحت." data-en="Choose the section you want to browse below.">اختار القسم اللي عايز تتصفحه من تحت.</p>
+            </div>
+            <div class="hero-image">
+                <img src="images/logo.jpg" alt="Boda PlayStation Logo" class="hero-logo">
+            </div>
+        </section>
+
+        <!-- قسم الأقسام (الاختيارات) -->
+        <section class="section">
+            <h2 data-ar="تصفح الأقسام" data-en="Browse Sections">تصفح الأقسام</h2>
+            <div class="portal-grid">
+                
+                <!-- PS2 -->
+                <a href="PS2games.html" class="portal-card">
+                    <div class="portal-icon">🎮</div>
+                    <h3>PlayStation 2</h3>
+                    <p data-ar="تصفح مكتبة ألعاب PS2" data-en="Browse PS2 Games">تصفح مكتبة ألعاب PS2</p>
+                </a>
+
+                <!-- PS3 -->
+                <a href="PS3games.html" class="portal-card">
+                    <div class="portal-icon">🕹️</div>
+                    <h3>PlayStation 3</h3>
+                    <p data-ar="تصفح مكتبة ألعاب PS3" data-en="Browse PS3 Games">تصفح مكتبة ألعاب PS3</p>
+                </a>
+
+                <!-- PS4 -->
+                <a href="game-page.html?console=ps4" class="portal-card">
+                    <div class="portal-icon">🎮</div>
+                    <h3>PlayStation 4</h3>
+                    <p data-ar="تصفح مكتبة ألعاب PS4" data-en="Browse PS4 Games">تصفح مكتبة ألعاب PS4</p>
+                </a>
+
+                <!-- PS5 -->
+                <a href="game-page.html?console=ps5" class="portal-card">
+                    <div class="portal-icon">🎮</div>
+                    <h3>PlayStation 5</h3>
+                    <p data-ar="تصفح مكتبة ألعاب PS5" data-en="Browse PS5 Games">تصفح مكتبة ألعاب PS5</p>
+                </a>
+
+                <!-- Xbox 360 -->
+                <a href="game-page.html?console=xbox360" class="portal-card">
+                    <div class="portal-icon">🟢</div>
+                    <h3>Xbox 360</h3>
+                    <p data-ar="تصفح مكتبة ألعاب Xbox 360" data-en="Browse Xbox 360 Games">تصفح مكتبة ألعاب Xbox 360</p>
+                </a>
+
+                <!-- Wii -->
+                <a href="game-page.html?console=wii" class="portal-card">
+                    <div class="portal-icon">🎮</div>
+                    <h3>Nintendo Wii</h3>
+                    <p data-ar="تصفح مكتبة ألعاب Wii" data-en="Browse Wii Games">تصفح مكتبة ألعاب Wii</p>
+                </a>
+
+                <!-- PSP -->
+                <a href="PSPgames.html" class="portal-card">
+                    <div class="portal-icon">📱</div>
+                    <h3>PlayStation PSP</h3>
+                    <p data-ar="تصفح مكتبة ألعاب PSP" data-en="Browse PSP Games">تصفح مكتبة ألعاب PSP</p>
+                </a>
+
+                <!-- Accessories -->
+                <a href="accessories.html" class="portal-card">
+                    <div class="portal-icon">🎧</div>
+                    <h3 data-ar="إكسسوارات" data-en="Accessories">إكسسوارات</h3>
+                    <p data-ar="دراعات، أذرع، وأكثر" data-en="Controllers, Joysticks & More">دراعات، أذرع، وأكثر</p>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 data-ar="عن المحل" data-en="About Us">عن المحل</h2>
+            <p data-ar="بوده بلايستشن هو مكانك المفضل للترفيه والألعاب. بنوفر لك أحدث أجهزة البلايستيشن وأكبر مكتبة ألعاب تناسب كل الأعمار. تعال واستمتع بوقتك معانا!" data-en="Boda PlayStation is your favorite entertainment and gaming spot. We provide the latest PlayStation consoles and a huge game library for all ages. Come and enjoy your time with us!">بوده بلايستشن هو مكانك المفضل للترفيه والألعاب. بنوفر لك أحدث أجهزة البلايستيشن وأكبر مكتبة ألعاب تناسب كل الأعمار. تعال واستمتع بوقتك معانا!</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3 data-ar="العنوان" data-en="Address">العنوان</h3>
+                    <p data-ar="(سيتم إضافة العنوان قريباً)" data-en="(Address will be added soon)">(سيتم إضافة العنوان قريباً)</p>
+                </div>
+                <div class="contact-card">
+                    <h3 data-ar="اتصل بنا" data-en="Call Us">اتصل بنا</h3>
+                    <a href="tel:01278566009" class="btn-primary" data-ar="01278566009" data-en="01278566009">01278566009</a>
+                </div>
+                <div class="contact-card">
+                    <h3 data-ar="واتساب" data-en="WhatsApp">واتساب</h3>
+                    <a href="https://wa.me/201278566009" target="_blank" class="btn-whatsapp" data-ar="راسلنا على واتساب" data-en="Message us on WhatsApp">راسلنا على واتساب</a>
+                </div>
+            </div>
+            
+            <!-- Google Maps Placeholder -->
+            <div class="map-container">
+                <h3 data-ar="موقعنا على الخريطة" data-en="Our Location">موقعنا على الخريطة</h3>
+                <!-- ضع كود الـ Embed الخاص بجوجل ماب هنا بدل الـ div اللي تحت -->
+                <div class="map-placeholder" data-ar="سيتم وضع الخريطة هنا" data-en="Map will be placed here">سيتم وضع الخريطة هنا</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Boda PlayStation. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
