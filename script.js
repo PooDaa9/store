@@ -441,6 +441,137 @@ const ps3Games = [
     { name: "Young Justice Legacy", img: "ps3-young-justice-legacy.jpg" }
 ];
 
+
+// قائمة ألعاب PS4
+const ps4Games = [
+    { name: "7 Days To Die", img: "ps4-7-days-to-die.jpg" },
+    { name: "ARK Survival Evolved", img: "ps4-ark-survival-evolved.jpg" },
+    { name: "Assassin's Creed Mirage", img: "ps4-assassins-creed-mirage.jpg" },
+    { name: "Assassin's Creed Odyssey", img: "ps4-assassins-creed-odyssey.jpg" },
+    { name: "Assassin's Creed Origins", img: "ps4-assassins-creed-origins.jpg" },
+    { name: "Assassin's Creed Valhalla", img: "ps4-assassins-creed-valhalla.jpg" },
+    { name: "Assassins Creed Freedom Cry", img: "ps4-assassins-creed-freedom-cry.jpg" },
+    { name: "Away Out", img: "ps4-away-out.jpg" },
+    { name: "Batman Arkham Knight", img: "ps4-batman-arkham-knight.jpg" },
+    { name: "Battlefield 1", img: "ps4-battlefield-1.jpg" },
+    { name: "Battlefield V", img: "ps4-battlefield-v.jpg" },
+    { name: "BEN 10", img: "ps4-ben-10.jpg" },
+    { name: "Ben 10 Power Trip", img: "ps4-ben-10-power-trip.jpg" },
+    { name: "Blue Rider", img: "ps4-blue-rider.jpg" },
+    { name: "Call of Duty Black Ops 3", img: "ps4-call-of-duty-black-ops-3.jpg" },
+    { name: "Call of Duty Black Ops 4", img: "ps4-call-of-duty-black-ops-4.jpg" },
+    { name: "Call of Duty Vanguard", img: "ps4-call-of-duty-vanguard.jpg" },
+    { name: "Captain Tsubasa Rise Of New Champions", img: "ps4-captain-tsubasa-rise-of-new-champions.jpg" },
+    { name: "Control", img: "ps4-control.jpg" },
+    { name: "Crash Bandicoot It's About Time", img: "ps4-crash-bandicoot-4-its-about-time.jpg" },
+    { name: "Crash Bandicoot N. Sane Trilogy", img: "ps4-crash-bandicoot-n-sane-trilogy.jpg" },
+    { name: "Crash car", img: "ps4-crash-car.jpg" },
+    { name: "Cup head", img: "ps4-cuphead.jpg" },
+    { name: "Cyberpunk 2077", img: "ps4-cyberpunk-2077.jpg" },
+    { name: "Dark Souls III The Fire Fades Edition", img: "ps4-dark-souls-iii-the-fire-fades-edition.jpg" },
+    { name: "Days Gone", img: "ps4-days-gone.jpg" },
+    { name: "Dead Island 2", img: "ps4-dead-island-2.jpg" },
+    { name: "Detroit Become Human", img: "ps4-detroit-become-human.jpg" },
+    { name: "DMC5", img: "ps4-dmc5.jpg" },
+    { name: "EA FC 24", img: "ps4-ea-fc-24.jpg" },
+    { name: "EA FC 25", img: "ps4-ea-fc-25.jpg" },
+	{ name: "EA FC 27", img: "ps4-ea-fc-27.jpg" },
+    { name: "eFootball 2026 PX", img: "ps4-efootball-2026-px.jpg" },
+	{ name: "eFootball 2027 bitbox", img: "ps4-efootball-2027-bitbox.jpg" },
+    { name: "eFootball PES 2021 Season Update", img: "ps4-efootball-pes-2021-season-update.jpg" },
+    { name: "Far Cry 6", img: "ps4-far-cry-6.jpg" },
+    { name: "Ghost of Tsushima", img: "ps4-ghost-of-tsushima.jpg" },
+    { name: "Ghostrunner", img: "ps4-ghostrunner.jpg" },
+    { name: "God Of War", img: "ps4-god-of-war.jpg" },
+    { name: "God of War III Remastered", img: "ps4-god-of-war-iii-remastered.jpg" },
+    { name: "GOW Ragnarok", img: "ps4-gow-ragnarok.jpg" },
+    { name: "GRIP", img: "ps4-grip.jpg" },
+    { name: "GTA III", img: "ps4-gta-iii.jpg" },
+    { name: "GTA San Andreas", img: "ps4-gta-san-andreas.jpg" },
+    { name: "GTA V", img: "ps4-gta-v.jpg" },
+    { name: "GTA Vice City", img: "ps4-gta-vice-city.jpg" },
+    { name: "High On Life", img: "ps4-high-on-life.jpg" },
+    { name: "Hitman 2", img: "ps4-hitman-2.jpg" },
+    { name: "Horizon Forbidden West", img: "ps4-horizon-forbidden-west.jpg" },
+    { name: "Horizon Zero Dawn", img: "ps4-horizon-zero-dawn.jpg" },
+    { name: "InFAMOUS Second Son", img: "ps4-infamous-second-son.jpg" },
+    { name: "Infamous The First Light", img: "ps4-infamous-the-first-light.jpg" },
+    { name: "Inside", img: "ps4-inside.jpg" },
+    { name: "It Takes Two", img: "ps4-it-takes-two.jpg" },
+    { name: "Jumanji The Video Game", img: "ps4-jumanji-the-video-game.jpg" },
+    { name: "Jump Force", img: "ps4-jump-force.jpg" },
+    { name: "Kena Bridge of Spirits", img: "ps4-kena-bridge-of-spirits.jpg" },
+    { name: "KOF 97", img: "ps4-kof-97.jpg" },
+    { name: "Kung Fu Panda", img: "ps4-kung-fu-panda.jpg" },
+    { name: "LEGO Batman 3", img: "ps4-lego-batman-3.jpg" },
+    { name: "Lego Worlds", img: "ps4-lego-worlds.jpg" },
+    { name: "Little Big Planet 3", img: "ps4-little-big-planet-3.jpg" },
+    { name: "Little Nightmares II", img: "ps4-little-nightmares-ii.jpg" },
+    { name: "Little Nightmares III", img: "ps4-little-nightmares-iii.jpg" },
+    { name: "Mafia 3", img: "ps4-mafia-3.jpg" },
+    { name: "Mafia Definitive Edition", img: "ps4-mafia-definitive-edition.jpg" },
+    { name: "Mafia II Definitive Edition", img: "ps4-mafia-ii-definitive-edition.jpg" },
+    { name: "MARIO", img: "ps4-mario.jpg" },
+    { name: "Marvel's Avengers", img: "ps4-marvels-avengers.jpg" },
+    { name: "Marvel's Guardians of the Galaxy", img: "ps4-marvels-guardians-of-the-galaxy.jpg" },
+    { name: "Marvel's Spider-Man", img: "ps4-marvels-spider-man.jpg" },
+    { name: "Marvel's Spider-Man Miles Morales", img: "ps4-marvels-spider-man-miles-morales.jpg" },
+    { name: "Max The Curse Of Brotherhood", img: "ps4-max-the-curse-of-brotherhood.jpg" },
+    { name: "Metro Exodus", img: "ps4-metro-exodus.jpg" },
+    { name: "Minecraft", img: "ps4-minecraft.jpg" },
+    { name: "Mortal Kombat 11", img: "ps4-mortal-kombat-11.jpg" },
+    { name: "Naruto Shippuden Ultimate Ninja Storm 4", img: "ps4-naruto-shippuden-ultimate-ninja-storm-4.jpg" },
+    { name: "Need for Speed Heat", img: "ps4-need-for-speed-heat.jpg" },
+    { name: "Need for Speed Payback", img: "ps4-need-for-speed-payback.jpg" },
+    { name: "Need for Speed Hot Pursuit Remastered", img: "ps4-need-for-speed-hot-pursuit-remastered.jpg" },
+    { name: "Nickelodeon All-Star Brawl", img: "ps4-nickelodeon-all-star-brawl.jpg" },
+    { name: "Nier Automata", img: "ps4-nier-automata.jpg" },
+    { name: "Oddworld New n Tasty", img: "ps4-oddworld-new-n-tasty.jpg" },
+    { name: "PES 19", img: "ps4-pes-19.jpg" },
+    { name: "PES 26 Monster", img: "ps4-pes-26-monster.jpg" },
+    { name: "PES27 monstor batch", img: "ps4-pes27-mage-batch.jpg" },
+    { name: "Prince of Persia The Lost Crown", img: "ps4-prince-of-persia-the-lost-crown.jpg" },
+    { name: "Ratchet & Clank", img: "ps4-ratchet-and-clank.jpg" },
+    { name: "Rayman Legends", img: "ps4-rayman-legends.jpg" },
+    { name: "Red Dead Redemption 2", img: "ps4-red-dead-redemption-2.jpg" },
+    { name: "Resident Evil 2", img: "ps4-resident-evil-2.jpg" },
+    { name: "Resident Evil 3 Remake", img: "ps4-resident-evil-3-remake.jpg" },
+    { name: "Resident Evil 4 Remaster", img: "ps4-resident-evil-4-remaster.jpg" },
+    { name: "Resident Evil 7 Biohazard", img: "ps4-resident-evil-7-biohazard.jpg" },
+    { name: "Resident Evil Revelations 2", img: "ps4-resident-evil-revelations-2.jpg" },
+    { name: "Resident Evil Village", img: "ps4-resident-evil-village.jpg" },
+    { name: "Resident Evil Origins Collection", img: "ps4-resident-evil-origins-collection.jpg" },
+    { name: "Rise of The Tomb Raider 20 Year Celebration", img: "ps4-rise-of-the-tomb-raider-20-year-celebration.jpg" },
+    { name: "Road Rage", img: "ps4-road-rage.jpg" },
+    { name: "Saints Row", img: "ps4-saints-row.jpg" },
+    { name: "Sekiro Shadows Die Twice", img: "ps4-sekiro-shadows-die-twice.jpg" },
+    { name: "SIFU", img: "ps4-sifu.jpg" },
+    { name: "Sniper Elite: Resistance", img: "ps4-sniper-elite.jpg" },
+    { name: "SOINC X SHADWO", img: "ps4-soinc-x-shadwo.jpg" },
+    { name: "SONICMANIA", img: "ps4-sonicmania.jpg" },
+    { name: "SONICCOLORSULTIM", img: "ps4-soniccolorsultim.jpg" },
+    { name: "STRAY", img: "ps4-stray.jpg" },
+    { name: "Street Fighter 6", img: "ps4-street-fighter-6.jpg" },
+    { name: "Streets of Rage 4", img: "ps4-streets-of-rage-4.jpg" },
+    { name: "Teenage Mutant Ninja Turtles Arcade Wrath of the Mutants", img: "ps4-teenage-mutant-ninja-turtles-arcade-wrath-of-the-mutants.jpg" },
+    { name: "Tekken 7", img: "ps4-tekken-7.jpg" },
+    { name: "Tennis 2", img: "ps4-tennis-2.jpg" },
+    { name: "The Evil Within 2", img: "ps4-the-evil-within-2.jpg" },
+    { name: "The King of Fighters XV", img: "ps4-the-king-of-fighters-xv.jpg" },
+    { name: "The Last of Us Part II", img: "ps4-the-last-of-us-part-ii.jpg" },
+    { name: "The Last of Us Remastered", img: "ps4-the-last-of-us-remastered.jpg" },
+    { name: "The Witcher 3 Wild Hunt", img: "ps4-the-witcher-3-wild-hunt.jpg" },
+    { name: "UFC4", img: "ps4-ufc4.jpg" },
+    { name: "Uncharted 4", img: "ps4-uncharted-4.jpg" },
+    { name: "Uncharted Lost Legacy", img: "ps4-uncharted-lost-legacy.jpg" },
+	{ name: "UNCHARTED™ The Nathan Drake Collection", img: "ps4-uncharted-collection.jpg" },
+    { name: "Watch Dogs 2", img: "ps4-watch-dogs-2.jpg" },
+    { name: "Watch Dogs Legion Resistance Edition", img: "ps4-watch-dogs-legion-resistance-edition.jpg" },
+    { name: "WWE 2K Battlegrounds", img: "ps4-wwe-2k-battlegrounds.jpg" },
+    { name: "WWE 2K24", img: "ps4-wwe-2k24.jpg" }
+];
+
+
 // =========================================
 // تحديد القائمة والسعر بناءً على اسم الصفحة
 // =========================================
@@ -453,14 +584,17 @@ if (window.location.pathname.includes("PSPgames.html")) {
     consoleName = "PSP";
     currentPrice = "20";
 } else if (window.location.pathname.includes("PS3games.html")) {
-    gamesData = ps3Games; // <--- التعديل هنا
+    gamesData = ps3Games;
     consoleName = "PS3";
-    currentPrice = "30"; 
+    currentPrice = "30";
+} else if (window.location.pathname.includes("PS4games.html")) {
+    gamesData = ps4Games; // ربطنا ألعاب PS4 هنا
+    consoleName = "PS4";
+    currentPrice = "30"; // حط السعر اللي انت عايزه للـ PS4
 } else {
-    gamesData = ps2Games; 
+    gamesData = ps2Games;
     consoleName = "PS2";
     currentPrice = "10";
-
 }
 
 // ثوابت الأرقام
