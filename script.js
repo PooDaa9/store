@@ -1,168 +1,169 @@
 // =========================================
-// 1. قائمة الألعاب (بيانات الألعاب مع السعر)
+// 1. قائمة ألعاب PS2 (مرتبة أبجدياً)
 // =========================================
 const ps2Games = [
-    { name: "Mortal Kombat Armageddon", img: "ps2-mortal-kombat-armageddon.jpg" },
-    { name: "Delta Force Black Hawk Down", img: "ps2-black-hawk-down.jpg" },
-    { name: "Jet Li Rise to Honor", img: "ps2-jt-le.jpg" },
-    { name: "Bloody Roar 4", img: "ps2-bloody-roar-4.jpg" },
-    { name: "Bratz Movie", img: "ps2-bratz-movie.jpg" },
-    { name: "God of War 2", img: "ps2-god-of-war-2.jpg" },
-    { name: "Lord of the Rings", img: "ps2-lord-of-the-rings.jpg" },
-    { name: "Civil War 2", img: "ps2-civil-war-2.jpg" },
-    { name: "Def Jam Fight for NY", img: "ps2-def-jam-fight.jpg" },
-    { name: "Dragon Naruto One Piece", img: "ps2-dragon-naruto-onepiece.jpg" },
-    { name: "Castlevania Lament of Innocence", img: "ps2-castlevania.jpg" },
-    { name: "Die Hard Arcade", img: "ps2-die-hard-arcade.jpg" },
-    { name: "Gladiator Sword of Vengeance", img: "ps2-gladiator.jpg" },
-    { name: "Grendizer", img: "ps2-grendizer.jpg" },
-    { name: "The Incredibles", img: "ps2-incredibles.jpg" },
-    { name: "King Arthur", img: "ps2-king-arthur.jpg" },
-    { name: "Onimusha 3 Demon Siege", img: "ps2-onimusha-3.jpg" },
-    { name: "Mercenaries Playground of Destruction", img: "ps2-mercenaries.jpg" },
-    { name: "Power Rangers Dino Thunder", img: "ps2-power-ranger.jpg" },
-    { name: "Ratatouille", img: "ps2-ratatouille.jpg" },
+    { name: "007 Agent Under Fire", img: "ps2-under-fire-007.jpg" },
+    { name: "Aliens vs Predator Extinction", img: "ps2-aliens-vs-predator-extinction.jpg" },
     { name: "Angola 2010", img: "ps2-angola-2010.jpg" },
-    { name: "FIFA Street", img: "ps2-fifa-street.jpg" },
-    { name: "PES 2018", img: "ps2-pes-2018.jpg" },
-    { name: "PES 2019", img: "ps2-pes-2019.jpg" },
-    { name: "PES 2013", img: "ps2-pes-2013.jpg" },
-    { name: "eFootball PES 2020", img: "ps2-pes-2020.jpg" },
-    { name: "PES 2017", img: "ps2-pes-2017.jpg" },
-    { name: "Winning 2012", img: "ps2-winning-2012.jpg" },
-    { name: "eFootball 2022 PS2", img: "ps2-efootball-2022-ps2.jpg" },
-    { name: "eFootball 2024", img: "ps2-pes-2024-efootball-ps2.jpg" },
-    { name: "eFootball PES 2023", img: "ps2-pes-2023.jpg" },
-    { name: "WWE All Stars", img: "ps2-all-stars.jpg" },
-    { name: "WWE SmackDown vs Raw", img: "ps2-smackdown-2005.jpg" },
-    { name: "WWE SmackDown Here Comes the Pain", img: "ps2-smackdown-2004.jpg" },
-    { name: "WWE Smackdown vs Raw 2019", img: "ps2-w2k19.jpg" },
-    { name: "WWE Smackdown vs Raw 2011", img: "ps2-wwe-2011.jpg" },
-    { name: "Quest for Aladdin's Treasure", img: "ps2-ala-eldin.jpg" },
+    { name: "Army Men Sarge War", img: "ps2-army-men-sarge-war.jpg" },
+    { name: "Bad Boys 2", img: "ps2-bad-boys-2.jpg" },
+    { name: "Barbie as The Island Princess", img: "ps2-barbie-island-princess.jpg" },
+    { name: "Barbie Horse Adventures", img: "ps2-barbie-horse.jpg" },
     { name: "Batman Begins", img: "ps2-batman-begins.jpg" },
     { name: "Batman Vengeance", img: "ps2-batman.jpg" },
     { name: "Ben 10 Alien Force", img: "ps2-ben-10-alien-force.jpg" },
-    { name: "Iron Man", img: "ps2-iron-man.jpg" },
-    { name: "Justice League Heroes", img: "ps2-justice-league-heroes.jpg" },
-    { name: "Teenage Mutant Ninja Turtles 2", img: "ps2-ninja-turtles-2.jpg" },
-    { name: "Spider-Man 2", img: "ps2-spider-man-2.jpg" },
-    { name: "Spider Man 4", img: "ps2-spider-man-4.jpg" },
-    { name: "Tarzan Untamed", img: "ps2-tarzan-2.jpg" },
-    { name: "Ultimate Spider Man", img: "ps2-ultimate-spider-man.jpg" },
-    { name: "X-Men Legends", img: "ps2-x-men-legends.jpg" },
-    { name: "GTA Vice City", img: "ps2-gta-vice-city.jpg" },
-    { name: "GTA San Andreas", img: "ps2-gta-san-andreas.jpg" },
-    { name: "Dragon Ball Z Sagas", img: "ps2-dbz-sagas.jpg" },
-    { name: "Dragon Ball Z Budokai 3", img: "ps2-dragon-ball-z.jpg" },
-    { name: "King of Fighters Neowave", img: "ps2-kof-2003.jpg" },
-    { name: "King of Fighters Maximum Impact", img: "ps2-kof-maximum-impact.jpg" },
-    { name: "Mortal Kombat Deception", img: "ps2-mortal-kombat-6.jpg" },
-    { name: "Naruto Shippuden Ultimate Ninja 4", img: "ps2-naruto-shippuden-4.jpg" },
-    { name: "Fighting for One Piece", img: "ps2-one-piece.jpg" },
-    { name: "Tekken Tag Tournament", img: "ps2-tekken-tag.jpg" },
-    { name: "War of the Monsters", img: "ps2-war-of-the-monsters.jpg" },
-    { name: "Driver 3", img: "ps2-driver-3.jpg" },
-    { name: "MotoGP 4", img: "ps2-motogp-4.jpg" },
-    { name: "Burnout Revenge", img: "ps2-burnout-4.jpg" },
-    { name: "Rumble Racing", img: "ps2-car-rumbel.jpg" },
-    { name: "Crazy Frog Racer", img: "ps2-crazy-frog-racer.jpg" },
-    { name: "Crazy Taxi", img: "ps2-crazy-taxi-11.jpg" },
-    { name: "Devil Kings", img: "ps2-devil-kings.jpg" },
-    { name: "Freekstyle", img: "ps2-motoseklat.jpg" },
-    { name: "Need for Speed Hot Pursuit 2", img: "ps2-nfs-hot-pursuit-3.jpg" },
-    { name: "Need for Speed Underground 2", img: "ps2-nfs-underground-2.jpg" },
-    { name: "Need for Speed Carbon", img: "ps2-nfs-carbon.jpg" },
-    { name: "Crash Nitro Kart", img: "ps2-crash-nitro.jpg" },
-    { name: "Psi-Ops The Mindgate Conspiracy", img: "ps2-black-ops-1.jpg" },
-    { name: "Gun Survivor 3 Dino Crisis", img: "ps2-gun-survivor-3.jpg" },
-    { name: "Hitman Contracts", img: "ps2-hitman-3.jpg" },
-    { name: "Aliens vs Predator Extinction", img: "ps2-aliens-vs-predator-extinction.jpg" },
-    { name: "Army Men Sarge War", img: "ps2-army-men-sarge-war.jpg" },
-    { name: "Bad Boys 2", img: "ps2-bad-boys-2.jpg" },
-    { name: "Call of Duty 3", img: "ps2-call-of-duty-3.jpg" },
-    { name: "Call of Duty World at War", img: "ps2-call-of-duty-4-world-at-war.jpg" },
-    { name: "Dead to Rights II", img: "ps2-dead-to-rights.jpg" },
-    { name: "Metal Slug 6", img: "ps2-metal-slug-6.jpg" },
-    { name: "Metal Slug Anthology", img: "ps2-metal-slug-anthology.jpg" },
-    { name: "Medal of Honor Frontline", img: "ps2-medal-of-honor.jpg" },
-    { name: "Metal Slug 4", img: "ps2-metal-slug-4.jpg" },
-    { name: "Metal Slug 5", img: "ps2-metal-slug-5.jpg" },
-    { name: "Resident Evil Dead Aim", img: "ps2-resident-evil-dead-aim.jpg" },
-    { name: "Resident Evil Code Veronica X", img: "ps2-resident-evil-code-veronica-x.jpg" },
-    { name: "Resident Evil Outbreak", img: "ps2-resident-evil-outbreak.jpg" },
-    { name: "Resident Evil 4", img: "ps2-resident-evil-4.jpg" },
-    { name: "Terminator 3 The Redemption", img: "ps2-t3-redemption.jpg" },
-    { name: "007 Agent Under Fire", img: "ps2-under-fire-007.jpg" },
-    { name: "Dead to Rights", img: "ps2-dead-2-rights.jpg" },
-    { name: "Jaws Unleashed", img: "ps2-jaws.jpg" },
-    { name: "Barbie Horse Adventures", img: "ps2-barbie-horse.jpg" },
-    { name: "Barbie as The Island Princess", img: "ps2-barbie-island-princess.jpg" },
-    { name: "Donald Duck PK", img: "ps2-donald-duck.jpg" },
-    { name: "Dora the Explorer", img: "ps2-dora-journey-purple-planet.jpg" },
-    { name: "Finding Nemo", img: "ps2-finding-nemo.jpg" },
-    { name: "Pac-Man World Rally", img: "ps2-pac-man.jpg" },
-    { name: "Tom and Jerry", img: "ps2-tom-and-jerry.jpg" },
-    { name: "Toy Story 3", img: "ps2-toy-story-3.jpg" },
-    { name: "International Pool Championship", img: "ps2-billiard.jpg" },
-    { name: "Virtua Tennis 2", img: "ps2-tennis-2.jpg" },
-    { name: "Evil Dead Regeneration", img: "ps2-evil-dead.jpg" },
-    { name: "Van Helsing", img: "ps2-van-helsing.jpg" },
-    { name: "Viewtiful Joe", img: "ps2-viewtiful-joe.jpg" },
-    { name: "Xena Warrior Princess", img: "ps2-zena.jpg" },
-    { name: "Buffy Chaos Bleeds", img: "ps2-buffu.jpg" },
-    { name: "Crash The Wrath of Cortex", img: "ps2-crash-mash-3.jpg" },
-    { name: "Castlevania", img: "ps2-castlevania.jpg" },
-    { name: "ChainDive", img: "ps2-chainedive.jpg" },
-    { name: "The Legend of China Chuanqi", img: "ps2-chana-arbik.jpg" },
-    { name: "Chaos Legion", img: "ps2-chaos-legion.jpg" },
-    { name: "Crash of the Titans", img: "ps2-crash-of-the-titans.jpg" },
-    { name: "Devil May Cry 3", img: "ps2-devil-may-cry-3.jpg" },
-    { name: "Eragon", img: "ps2-eragon.jpg" },
-    { name: "Espgaluda", img: "ps2-espgalua.jpg" },
-    { name: "Fullmetal Alchemist Broken Angel", img: "ps2-fullmetal-alchemist-broken-angel.jpg" },
-    { name: "Ghost Rider", img: "ps2-ghost-rider.jpg" },
-    { name: "God Hand", img: "ps2-godhand.jpg" },
-    { name: "God of War", img: "ps2-god-of-war.jpg" },
-    { name: "Jackie Chan Adventures", img: "ps2-jackie-chan-adventures.jpg" },
-    { name: "Mortal Kombat Shaolin Monks", img: "ps2-mortal-kombat-shaolin-monks.jpg" },
-    { name: "The Mummy Returns", img: "ps2-the-mummy.jpg" },
-    { name: "Transformers The Game", img: "ps2-transformers-the-game.jpg" },
-    { name: "Incredible Hulk Ultimate Destruction", img: "ps2-halk.jpg" },
-    { name: "Need for Speed Most Wanted", img: "ps2-nfs-most.jpg" },
-    { name: "Twisted Metal Black", img: "ps2-twisted-black.jpg" },
-    { name: "Superman Shadow of Apokolips", img: "ps2-superman.jpg" },
     { name: "Ben 10 Protector of Earth", img: "ps2-ben10-pro.jpg" },
     { name: "Ben 10 Ultimate Alien", img: "ps2-ben10-ultimate-alien.jpg" },
-    { name: "GTA 3", img: "ps2-gta3.jpg" },
-    { name: "Marvel vs Capcom 2", img: "ps2-marvel-capcom2.jpg" },
-    { name: "Mission Impossible Operation Surma", img: "ps2-mission-impossible.jpg" },
-    { name: "Prince of Persia Trilogy", img: "ps2-prince-trilogy.jpg" },
-    { name: "SpongeBob and Friends Unite", img: "ps2-spongebop-friends.jpg" },
-    { name: "Tekken 4", img: "ps2-tekken4.jpg" },
-    { name: "Disney's Stitch Experiment 626", img: "ps2-stitch626.jpg" },
-    { name: "Ed, Edd n Eddy The Mis-Edventures", img: "ps2-ed-edd.jpg" },
-    { name: "Harry Potter e la camera dei segreti", img: "ps2-harry-potter.jpg" },
-    { name: "Incredible Hulk", img: "ps2-incredible-hulk-1.jpg" },
-    { name: "DreamWorks Kung Fu Panda", img: "ps2-kungfu-oanda.jpg" },
-    { name: "Metal Slug 3", img: "ps2-metal-slug-3.jpg" },
-    { name: "Neo Contra", img: "ps2-neo-contra.jpg" },
-    { name: "Teenage Mutant Ninja Turtles", img: "ps2-teemage-ninja.jpg" },
-    { name: "TMNT The Videogame", img: "ps2-tmnt-the-game.jpg" },
-    { name: "Sonic Riders", img: "ps2-sonic-riders.jpg" },
-    { name: "Spider-Man 3", img: "ps2-spider-man-3.jpg" },
-    { name: "SpongeBob SquarePants Revenge of the Flying Dutchman", img: "ps2-spongebob-flying.jpg" },
     { name: "Bloody Roar 3", img: "ps2-bloody-roar-3.jpg" },
-    { name: "Marvel Ultimate Alliance 2", img: "ps2-marval-ultimate-allince2.jpg" },
-    { name: "Tom Clancy's Ghost Recon Jungle Storm", img: "ps2-jungle-storm.jpg" },
+    { name: "Bloody Roar 4", img: "ps2-bloody-roar-4.jpg" },
+    { name: "Bratz Movie", img: "ps2-bratz-movie.jpg" },
+    { name: "Buffy Chaos Bleeds", img: "ps2-buffu.jpg" },
+    { name: "Burnout Revenge", img: "ps2-burnout-4.jpg" },
+    { name: "Call of Duty 3", img: "ps2-call-of-duty-3.jpg" },
+    { name: "Call of Duty World at War", img: "ps2-call-of-duty-4-world-at-war.jpg" },
+    { name: "Castlevania", img: "ps2-castlevania.jpg" },
+    { name: "Castlevania Lament of Innocence", img: "ps2-castlevania.jpg" },
+    { name: "ChainDive", img: "ps2-chainedive.jpg" },
+    { name: "Chaos Legion", img: "ps2-chaos-legion.jpg" },
+    { name: "Civil War 2", img: "ps2-civil-war-2.jpg" },
+    { name: "Crash Nitro Kart", img: "ps2-crash-nitro.jpg" },
+    { name: "Crash of the Titans", img: "ps2-crash-of-the-titans.jpg" },
+    { name: "Crash The Wrath of Cortex", img: "ps2-crash-mash-3.jpg" },
+    { name: "Crazy Frog Racer", img: "ps2-crazy-frog-racer.jpg" },
+    { name: "Crazy Taxi", img: "ps2-crazy-taxi-11.jpg" },
+    { name: "Dead to Rights", img: "ps2-dead-2-rights.jpg" },
+    { name: "Dead to Rights II", img: "ps2-dead-to-rights.jpg" },
+    { name: "Def Jam Fight for NY", img: "ps2-def-jam-fight.jpg" },
+    { name: "Devil Kings", img: "ps2-devil-kings.jpg" },
+    { name: "Devil May Cry 3", img: "ps2-devil-may-cry-3.jpg" },
+    { name: "Die Hard Arcade", img: "ps2-die-hard-arcade.jpg" },
+    { name: "Disney's Stitch Experiment 626", img: "ps2-stitch626.jpg" },
+    { name: "Donald Duck PK", img: "ps2-donald-duck.jpg" },
+    { name: "Dora the Explorer", img: "ps2-dora-journey-purple-planet.jpg" },
+    { name: "Dragon Ball Z Budokai 3", img: "ps2-dragon-ball-z.jpg" },
+    { name: "Dragon Ball Z Sagas", img: "ps2-dbz-sagas.jpg" },
+    { name: "Dragon Naruto One Piece", img: "ps2-dragon-naruto-onepiece.jpg" },
+    { name: "DreamWorks Kung Fu Panda", img: "ps2-kungfu-oanda.jpg" },
+    { name: "Driver 3", img: "ps2-driver-3.jpg" },
+    { name: "Ed, Edd n Eddy The Mis-Edventures", img: "ps2-ed-edd.jpg" },
+    { name: "eFootball 2022 PS2", img: "ps2-efootball-2022-ps2.jpg" },
+    { name: "eFootball 2024", img: "ps2-pes-2024-efootball-ps2.jpg" },
+    { name: "eFootball PES 2020", img: "ps2-pes-2020.jpg" },
+    { name: "eFootball PES 2023", img: "ps2-pes-2023.jpg" },
+    { name: "Eragon", img: "ps2-eragon.jpg" },
+    { name: "Espgaluda", img: "ps2-espgalua.jpg" },
+    { name: "Evil Dead Regeneration", img: "ps2-evil-dead.jpg" },
+    { name: "FIFA Street", img: "ps2-fifa-street.jpg" },
+    { name: "Fighting for One Piece", img: "ps2-one-piece.jpg" },
+    { name: "Finding Nemo", img: "ps2-finding-nemo.jpg" },
+    { name: "Freekstyle", img: "ps2-motoseklat.jpg" },
+    { name: "Fullmetal Alchemist Broken Angel", img: "ps2-fullmetal-alchemist-broken-angel.jpg" },
+    { name: "Ghost Rider", img: "ps2-ghost-rider.jpg" },
+    { name: "Gladiator Sword of Vengeance", img: "ps2-gladiator.jpg" },
+    { name: "God Hand", img: "ps2-godhand.jpg" },
+    { name: "God of War", img: "ps2-god-of-war.jpg" },
+    { name: "God of War 2", img: "ps2-god-of-war-2.jpg" },
+    { name: "Grendizer", img: "ps2-grendizer.jpg" },
+    { name: "GTA 3", img: "ps2-gta3.jpg" },
+    { name: "GTA San Andreas", img: "ps2-gta-san-andreas.jpg" },
+    { name: "GTA Vice City", img: "ps2-gta-vice-city.jpg" },
+    { name: "Gun Survivor 3 Dino Crisis", img: "ps2-gun-survivor-3.jpg" },
+    { name: "Harry Potter e la camera dei segreti", img: "ps2-harry-potter.jpg" },
+    { name: "Hitman Contracts", img: "ps2-hitman-3.jpg" },
+    { name: "Incredible Hulk", img: "ps2-incredible-hulk-1.jpg" },
+    { name: "Incredible Hulk Ultimate Destruction", img: "ps2-halk.jpg" },
+    { name: "International Pool Championship", img: "ps2-billiard.jpg" },
+    { name: "Iron Man", img: "ps2-iron-man.jpg" },
+    { name: "Jackie Chan Adventures", img: "ps2-jackie-chan-adventures.jpg" },
+    { name: "Jaws Unleashed", img: "ps2-jaws.jpg" },
+    { name: "Jet Li Rise to Honor", img: "ps2-jt-le.jpg" },
     { name: "Jit lee Rise to Honor 2", img: "ps2-jit-lee-2.jpg" },
     { name: "Jumper Griffin's Story", img: "ps2-jumper.jpg" },
+    { name: "Justice League Heroes", img: "ps2-justice-league-heroes.jpg" },
+    { name: "King Arthur", img: "ps2-king-arthur.jpg" },
+    { name: "King of Fighters Maximum Impact", img: "ps2-kof-maximum-impact.jpg" },
+    { name: "King of Fighters Neowave", img: "ps2-kof-2003.jpg" },
+    { name: "Lord of the Rings", img: "ps2-lord-of-the-rings.jpg" },
+    { name: "Marvel Ultimate Alliance 2", img: "ps2-marval-ultimate-allince2.jpg" },
+    { name: "Marvel vs Capcom 2", img: "ps2-marvel-capcom2.jpg" },
+    { name: "Medal of Honor Frontline", img: "ps2-medal-of-honor.jpg" },
+    { name: "Mercenaries Playground of Destruction", img: "ps2-mercenaries.jpg" },
+    { name: "Metal Slug 3", img: "ps2-metal-slug-3.jpg" },
+    { name: "Metal Slug 4", img: "ps2-metal-slug-4.jpg" },
+    { name: "Metal Slug 5", img: "ps2-metal-slug-5.jpg" },
+    { name: "Metal Slug 6", img: "ps2-metal-slug-6.jpg" },
+    { name: "Metal Slug Anthology", img: "ps2-metal-slug-anthology.jpg" },
+    { name: "Mission Impossible Operation Surma", img: "ps2-mission-impossible.jpg" },
+    { name: "Mortal Kombat Armageddon", img: "ps2-mortal-kombat-armageddon.jpg" },
+    { name: "Mortal Kombat Deception", img: "ps2-mortal-kombat-6.jpg" },
+    { name: "Mortal Kombat Shaolin Monks", img: "ps2-mortal-kombat-shaolin-monks.jpg" },
+    { name: "MotoGP 4", img: "ps2-motogp-4.jpg" },
+    { name: "Naruto Shippuden Ultimate Ninja 4", img: "ps2-naruto-shippuden-4.jpg" },
+    { name: "Need for Speed Carbon", img: "ps2-nfs-carbon.jpg" },
+    { name: "Need for Speed Hot Pursuit 2", img: "ps2-nfs-hot-pursuit-3.jpg" },
+    { name: "Need for Speed Most Wanted", img: "ps2-nfs-most.jpg" },
+    { name: "Need for Speed Underground 2", img: "ps2-nfs-underground-2.jpg" },
+    { name: "Need for Speed Undercover", img: "ps2-nfs-under.jpg" },
+    { name: "Neo Contra", img: "ps2-neo-contra.jpg" },
+    { name: "Onimusha 3 Demon Siege", img: "ps2-onimusha-3.jpg" },
+    { name: "Pac-Man World Rally", img: "ps2-pac-man.jpg" },
+    { name: "PES 2013", img: "ps2-pes-2013.jpg" },
+    { name: "PES 2017", img: "ps2-pes-2017.jpg" },
+    { name: "PES 2018", img: "ps2-pes-2018.jpg" },
+    { name: "PES 2019", img: "ps2-pes-2019.jpg" },
+    { name: "Power Rangers Dino Thunder", img: "ps2-power-ranger.jpg" },
+    { name: "Prince of Persia Trilogy", img: "ps2-prince-trilogy.jpg" },
+    { name: "Psi-Ops The Mindgate Conspiracy", img: "ps2-black-ops-1.jpg" },
+    { name: "Quest for Aladdin's Treasure", img: "ps2-ala-eldin.jpg" },
+    { name: "Ratatouille", img: "ps2-ratatouille.jpg" },
+    { name: "Resident Evil 4", img: "ps2-resident-evil-4.jpg" },
+    { name: "Resident Evil Code Veronica X", img: "ps2-resident-evil-code-veronica-x.jpg" },
+    { name: "Resident Evil Dead Aim", img: "ps2-resident-evil-dead-aim.jpg" },
+    { name: "Resident Evil Outbreak", img: "ps2-resident-evil-outbreak.jpg" },
+    { name: "Rumble Racing", img: "ps2-car-rumbel.jpg" },
+    { name: "Sonic Riders", img: "ps2-sonic-riders.jpg" },
     { name: "Sonic Unleashed", img: "ps2-sonic-unleashed.jpg" },
-    { name: "The Matrix Path of Neo", img: "ps2-the-matrix.jpg" },
     { name: "Soulcalibur II", img: "ps2-soulcalibur-2.jpg" },
-    { name: "Need for Speed Undercover", img: "ps2-nfs-under.jpg" }
+    { name: "Spider Man 4", img: "ps2-spider-man-4.jpg" },
+    { name: "Spider-Man 2", img: "ps2-spider-man-2.jpg" },
+    { name: "Spider-Man 3", img: "ps2-spider-man-3.jpg" },
+    { name: "SpongeBob and Friends Unite", img: "ps2-spongebop-friends.jpg" },
+    { name: "SpongeBob SquarePants Revenge of the Flying Dutchman", img: "ps2-spongebob-flying.jpg" },
+    { name: "Superman Shadow of Apokolips", img: "ps2-superman.jpg" },
+    { name: "Tarzan Untamed", img: "ps2-tarzan-2.jpg" },
+    { name: "Teenage Mutant Ninja Turtles", img: "ps2-teemage-ninja.jpg" },
+    { name: "Teenage Mutant Ninja Turtles 2", img: "ps2-ninja-turtles-2.jpg" },
+    { name: "Tekken 4", img: "ps2-tekken4.jpg" },
+    { name: "Tekken Tag Tournament", img: "ps2-tekken-tag.jpg" },
+    { name: "Terminator 3 The Redemption", img: "ps2-t3-redemption.jpg" },
+    { name: "The Incredibles", img: "ps2-incredibles.jpg" },
+    { name: "The Legend of China Chuanqi", img: "ps2-chana-arbik.jpg" },
+    { name: "The Matrix Path of Neo", img: "ps2-the-matrix.jpg" },
+    { name: "The Mummy Returns", img: "ps2-the-mummy.jpg" },
+    { name: "TMNT The Videogame", img: "ps2-tmnt-the-game.jpg" },
+    { name: "Tom and Jerry", img: "ps2-tom-and-jerry.jpg" },
+    { name: "Tom Clancy's Ghost Recon Jungle Storm", img: "ps2-jungle-storm.jpg" },
+    { name: "Toy Story 3", img: "ps2-toy-story-3.jpg" },
+    { name: "Transformers The Game", img: "ps2-transformers-the-game.jpg" },
+    { name: "Twisted Metal Black", img: "ps2-twisted-black.jpg" },
+    { name: "Ultimate Spider Man", img: "ps2-ultimate-spider-man.jpg" },
+    { name: "Van Helsing", img: "ps2-van-helsing.jpg" },
+    { name: "Viewtiful Joe", img: "ps2-viewtiful-joe.jpg" },
+    { name: "Virtua Tennis 2", img: "ps2-tennis-2.jpg" },
+    { name: "War of the Monsters", img: "ps2-war-of-the-monsters.jpg" },
+    { name: "Winning 2012", img: "ps2-winning-2012.jpg" },
+    { name: "WWE All Stars", img: "ps2-all-stars.jpg" },
+    { name: "WWE SmackDown Here Comes the Pain", img: "ps2-smackdown-2004.jpg" },
+    { name: "WWE SmackDown vs Raw", img: "ps2-smackdown-2005.jpg" },
+    { name: "WWE Smackdown vs Raw 2011", img: "ps2-wwe-2011.jpg" },
+    { name: "WWE Smackdown vs Raw 2019", img: "ps2-w2k19.jpg" },
+    { name: "X-Men Legends", img: "ps2-x-men-legends.jpg" },
+    { name: "Xena Warrior Princess", img: "ps2-zena.jpg" }
 ];
 
-// قائمة ألعاب PSP
+// =========================================
+// 2. قائمة ألعاب PSP (مرتبة أبجدياً)
+// =========================================
 const pspGames = [
     { name: "Ben 10 Protector of Earth", img: "psp-ben10-pro.jpg" },
     { name: "Call of Duty Roads to Victory", img: "psp-cod-roads.jpg" },
@@ -174,10 +175,10 @@ const pspGames = [
     { name: "WWE SmackDown vs RAW 2011", img: "psp-wwe-2011.jpg" }
 ];
 
-// قائمة ألعاب PS3
+// =========================================
+// 3. قائمة ألعاب PS3 (مرتبة أبجدياً)
+// =========================================
 const ps3Games = [
-    { name: "Assassin's Creed: Brotherhood", img: "ps3-ac-brotherhood.jpg" },
-    { name: "Adventure Time The Secret of the Nameless Kingdom", img: "ps3-adventure-time.jpg" },
     { name: "Afro Samurai", img: "ps3-afro-samurai.jpg" },
     { name: "Aliens Colonial Marines", img: "ps3-aliens-colonial-marines.jpg" },
     { name: "Alone in the Dark", img: "ps3-alone-in-the-dark.jpg" },
@@ -257,8 +258,8 @@ const ps3Games = [
     { name: "Dragon Ball Xenoverse", img: "ps3-dragon-ball-xenoverse.jpg" },
     { name: "Driver San Francisco", img: "ps3-driver-san-francisco.jpg" },
     { name: "Dynasty Warriors 6 Empires", img: "ps3-dynasty-warriors-6-empires.jpg" },
-    { name: "EA Sports MMA", img: "ps3-ea-sports-mma.jpg" },
     { name: "EA Sports Grand Slam Tennis 2", img: "ps3-ea-sports-grand-slam-tennis-2.jpg" },
+    { name: "EA Sports MMA", img: "ps3-ea-sports-mma.jpg" },
     { name: "Earth Defense Force 2025", img: "ps3-earth-defense-force-2025.jpg" },
     { name: "Enslaved Odyssey to the West", img: "ps3-enslaved-odyssey-to-the-west.jpg" },
     { name: "F.E.A.R.", img: "ps3-fear.jpg" },
@@ -321,10 +322,10 @@ const ps3Games = [
     { name: "Medal of Honor Airborne", img: "ps3-medal-of-honor-airborne.jpg" },
     { name: "Medal of Honor Warfighter", img: "ps3-medal-of-honor-warfighter.jpg" },
     { name: "Megamind", img: "ps3-megamind.jpg" },
+    { name: "Metal Gear Rising Revengeance", img: "ps3-metal-gear-rising-revengeance.jpg" },
     { name: "Metal Gear Solid 4 Guns of the Patriots", img: "ps3-metal-gear-solid-4-guns-of-the-patriots.jpg" },
     { name: "Metal Gear Solid V Ground Zeroes", img: "ps3-metal-gear-solid-v-ground-zeroes.jpg" },
     { name: "Metal Gear Solid V The Phantom Pain", img: "ps3-metal-gear-solid-v-the-phantom-pain.jpg" },
-    { name: "Metal Gear Rising Revengeance", img: "ps3-metal-gear-rising-revengeance.jpg" },
     { name: "Metro Last Light", img: "ps3-metro-last-light.jpg" },
     { name: "Middle Earth Shadow of Mordor", img: "ps3-middle-earth-shadow-of-mordor.jpg" },
     { name: "Midnight Club Los Angeles", img: "ps3-midnight-club-los-angeles.jpg" },
@@ -334,8 +335,8 @@ const ps3Games = [
     { name: "Monsters vs Aliens", img: "ps3-monsters-vs-aliens.jpg" },
     { name: "Mortal Kombat Komplete Edition", img: "ps3-mortal-kombat-komplete-edition.jpg" },
     { name: "Mortal Kombat vs DC Universe", img: "ps3-mortal-kombat-vs-dc-universe.jpg" },
-    { name: "Motorstorm", img: "ps3-motorstorm.jpg" },
     { name: "Motorcycle Club", img: "ps3-motorcycle-club.jpg" },
+    { name: "Motorstorm", img: "ps3-motorstorm.jpg" },
     { name: "Motorstorm Apocalypse", img: "ps3-motorstorm-apocalypse.jpg" },
     { name: "Murdered Soul Suspect", img: "ps3-murdered-soul-suspect.jpg" },
     { name: "MX vs ATV Supercross", img: "ps3-mx-vs-atv-supercross.jpg" },
@@ -364,7 +365,7 @@ const ps3Games = [
     { name: "Pro Evolution Soccer 2016", img: "ps3-pro-evolution-soccer-2016.jpg" },
     { name: "Pro Evolution Soccer 2018", img: "ps3-pro-evolution-soccer-2018.jpg" },
     { name: "Pro Evolution Soccer 2023", img: "ps3-pro-evolution-soccer-2023.jpg" },
-	{ name: "Pro Evolution Soccer 2026", img: "ps3-pro-evolution-soccer-2026.jpg" },
+    { name: "Pro Evolution Soccer 2026", img: "ps3-pro-evolution-soccer-2026.jpg" },
     { name: "Prototype", img: "ps3-prototype.jpg" },
     { name: "Prototype 2", img: "ps3-prototype-2.jpg" },
     { name: "Rango", img: "ps3-rango.jpg" },
@@ -406,6 +407,7 @@ const ps3Games = [
     { name: "The Amazing Spider-Man 2", img: "ps3-the-amazing-spider-man-2.jpg" },
     { name: "The Evil Within", img: "ps3-the-evil-within.jpg" },
     { name: "The Golden Compass", img: "ps3-the-golden-compass.jpg" },
+    { name: "The Incredible Hulk", img: "ps3-the-incredible-hulk.jpg" },
     { name: "The Jak and Daxter Trilogy", img: "ps3-the-jak-and-daxter-trilogy.jpg" },
     { name: "The Last of Us", img: "ps3-the-last-of-us.jpg" },
     { name: "The Lego Movie Videogame", img: "ps3-the-lego-movie-videogame.jpg" },
@@ -413,7 +415,6 @@ const ps3Games = [
     { name: "The Shoot", img: "ps3-the-shoot.jpg" },
     { name: "The Smurfs 2", img: "ps3-the-smurfs-2.jpg" },
     { name: "The Walking Dead", img: "ps3-the-walking-dead.jpg" },
-    { name: "The Incredible Hulk", img: "ps3-the-incredible-hulk.jpg" },
     { name: "Thief", img: "ps3-thief.jpg" },
     { name: "Thor God of Thunder", img: "ps3-thor-god-of-thunder.jpg" },
     { name: "Tom Clancys Ghost Recon Advanced Warfighter 2", img: "ps3-tom-clancys-ghost-recon-advanced-warfighter-2.jpg" },
@@ -441,8 +442,9 @@ const ps3Games = [
     { name: "Young Justice Legacy", img: "ps3-young-justice-legacy.jpg" }
 ];
 
-
-// قائمة ألعاب PS4
+// =========================================
+// 4. قائمة ألعاب PS4 (مرتبة أبجدياً)
+// =========================================
 const ps4Games = [
     { name: "7 Days To Die", img: "ps4-7-days-to-die.jpg" },
     { name: "ARK Survival Evolved", img: "ps4-ark-survival-evolved.jpg" },
@@ -475,9 +477,9 @@ const ps4Games = [
     { name: "DMC5", img: "ps4-dmc5.jpg" },
     { name: "EA FC 24", img: "ps4-ea-fc-24.jpg" },
     { name: "EA FC 25", img: "ps4-ea-fc-25.jpg" },
-	{ name: "EA FC 27", img: "ps4-ea-fc-27.jpg" },
+    { name: "EA FC 27", img: "ps4-ea-fc-27.jpg" },
     { name: "eFootball 2026 PX", img: "ps4-efootball-2026-px.jpg" },
-	{ name: "eFootball 2027 bitbox", img: "ps4-efootball-2027-bitbox.jpg" },
+    { name: "eFootball 2027 bitbox", img: "ps4-efootball-2027-bitbox.jpg" },
     { name: "eFootball PES 2021 Season Update", img: "ps4-efootball-pes-2021-season-update.jpg" },
     { name: "Far Cry 6", img: "ps4-far-cry-6.jpg" },
     { name: "Ghost of Tsushima", img: "ps4-ghost-of-tsushima.jpg" },
@@ -564,16 +566,25 @@ const ps4Games = [
     { name: "UFC4", img: "ps4-ufc4.jpg" },
     { name: "Uncharted 4", img: "ps4-uncharted-4.jpg" },
     { name: "Uncharted Lost Legacy", img: "ps4-uncharted-lost-legacy.jpg" },
-	{ name: "UNCHARTED™ The Nathan Drake Collection", img: "ps4-uncharted-collection.jpg" },
+    { name: "UNCHARTED™ The Nathan Drake Collection", img: "ps4-uncharted-collection.jpg" },
     { name: "Watch Dogs 2", img: "ps4-watch-dogs-2.jpg" },
     { name: "Watch Dogs Legion Resistance Edition", img: "ps4-watch-dogs-legion-resistance-edition.jpg" },
     { name: "WWE 2K Battlegrounds", img: "ps4-wwe-2k-battlegrounds.jpg" },
     { name: "WWE 2K24", img: "ps4-wwe-2k24.jpg" }
 ];
 
+// =========================================
+// 5. قائمة ألعاب PS5
+// =========================================
+const ps5Games = [
+    { name: "EA fc 27", img: "ps5-ea-fc-27.jpg", price: "100" },
+	{ name: "Monster Truck Championship", img: "ps5-monster-truck.jpg", price: "50" },
+    { name: "Marvel’s Wolverine", img: "ps5-Marvels-wolverine.jpg", price: "75" }
+
+];
 
 // =========================================
-// تحديد القائمة والسعر بناءً على اسم الصفحة
+// 6. ربط القوايم بالصفحات وتحديد السعر الموحد
 // =========================================
 let gamesData = [];
 let consoleName = "";
@@ -588,9 +599,13 @@ if (window.location.pathname.includes("PSPgames.html")) {
     consoleName = "PS3";
     currentPrice = "30";
 } else if (window.location.pathname.includes("PS4games.html")) {
-    gamesData = ps4Games; // ربطنا ألعاب PS4 هنا
+    gamesData = ps4Games;
     consoleName = "PS4";
-    currentPrice = "30"; // حط السعر اللي انت عايزه للـ PS4
+    currentPrice = "30"; 
+} else if (window.location.pathname.includes("PS5games.html")) {
+    gamesData = ps5Games; 
+    consoleName = "PS5";
+    currentPrice = "50"; 
 } else {
     gamesData = ps2Games;
     consoleName = "PS2";
@@ -602,7 +617,7 @@ const PHONE_NUMBER = "01278566009";
 const WHATSAPP_NUMBER = "201278566009";
 
 // =========================================
-// 2. كود تغيير اللغة (عربي / إنجليزي)
+// 7. كود تغيير اللغة (عربي / إنجليزي)
 // =========================================
 let currentLang = 'ar';
 
@@ -628,7 +643,7 @@ function toggleLanguage() {
 }
 
 // =========================================
-// 3. كود عرض الألعاب والبحث والفلترة
+// 8. كود عرض الألعاب والبحث والفلترة
 // =========================================
 let currentLetter = 'all';
 let searchQuery = '';
@@ -661,13 +676,14 @@ function renderGames() {
             </div>
         `;
 
+        // هنا السر: لو اللعبة ليها سعر (زي PS5) هياخده، لو مفيش هياخد سعر الجهاز الموحد
         card.innerHTML = `
             <div class="game-image-container">
                 ${imageContent}
             </div>
             <div class="game-info">
                 <div class="game-title">${consoleName} - ${game.name}</div>
-                <div class="game-price">${currentPrice} ${currentLang === 'ar' ? 'ج.م' : 'EGP'}</div>
+                <div class="game-price">${game.price ? game.price : currentPrice} ${currentLang === 'ar' ? 'ج.م' : 'EGP'}</div>
                 <div class="game-actions">
                     <a href="https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('أريد أطلب لعبة: ' + game.name)}" target="_blank" class="btn-action-wa">
                         ${currentLang === 'ar' ? 'واتساب' : 'WhatsApp'}
@@ -683,7 +699,7 @@ function renderGames() {
 }
 
 // =========================================
-// 4. تشغيل الأحداث (Event Listeners)
+// 9. تشغيل الأحداث (Event Listeners)
 // =========================================
 document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('searchInput');
