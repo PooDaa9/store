@@ -583,6 +583,184 @@ const ps5Games = [
 
 ];
 
+
+// قائمة ألعاب Wii
+const wiiGames = [
+    { name: "Alvin and the Chipmunks", img: "wii-alvin-and-the-chipmunks.jpg" },
+    { name: "Angry Birds Trilogy", img: "wii-angry-birds-trilogy.jpg" },
+    { name: "Astro Boy The Video Game", img: "wii-astro-boy-the-video-game.jpg" },
+    { name: "Avatar The Last Airbender", img: "wii-avatar-the-last-airbender.jpg" },
+    { name: "Barbie as The Island Princess", img: "wii-barbie-as-the-island-princess.jpg" },
+    { name: "Ben 10 Alien Force", img: "wii-ben-10-alien-force.jpg" },
+    { name: "Ben 10 Omniverse", img: "wii-ben-10-omniverse.jpg" },
+    { name: "Ben 10 Omniverse 2", img: "wii-ben-10-omniverse-2.jpg" },
+    { name: "Ben 10 Protector of Earth", img: "wii-ben-10-protector-of-earth.jpg" },
+    { name: "Ben 10 Ultimate Alien Cosmic Destruction", img: "wii-ben-10-ultimate-alien-cosmic-destruction.jpg" },
+    { name: "Brave", img: "wii-brave.jpg" },
+    { name: "Build N Race", img: "wii-build-n-race.jpg" },
+    { name: "Call of Duty 3", img: "wii-call-of-duty-3.jpg" },
+	{ name: "Call of Duty: Modern Warfare 3", img: "wii-modern-warfare-3.jpg" },
+    { name: "Cars 2", img: "wii-cars-2.jpg" },
+    { name: "Cars Race-O-Rama", img: "wii-cars-race-o-rama.jpg" },
+    { name: "Captain America Super Soldier", img: "wii-captain-america-super-soldier.jpg" },
+    { name: "Cooking Mama World Babysitting Mama", img: "wii-cooking-mama-world-babysitting-mama.jpg" },
+    { name: "Crash: Mind Over Mutant", img: "wii-crash-2008.jpg" },
+    { name: "Croods", img: "wii-croods.jpg" },
+    { name: "Dance Dance Revolution Hottest Party 3", img: "wii-dance-dance-revolution-hottest-party-3.jpg" },
+    { name: "Deal or No Deal", img: "wii-deal-or-no-deal.jpg" },
+    { name: "DECA Sports 2", img: "wii-deca-sports-2.jpg" },
+    { name: "Dewys Adventure", img: "wii-dewys-adventure.jpg" },
+    { name: "Dirt 2", img: "wii-dirt-2.jpg" },
+    { name: "Disney Channel All Star Party", img: "wii-disney-channel-all-star-party.jpg" },
+    { name: "Disney Epic Mickey", img: "wii-disney-epic-mickey.jpg" },
+    { name: "Disney Epic Mickey 2 The Power of 2", img: "wii-disney-epic-mickey-2-the-power-of-2.jpg" },
+    { name: "Disney Princess My Fairytale Adventure", img: "wii-disney-princess-my-fairytale-adventure.jpg" },
+    { name: "Donkey Kong Country Returns", img: "wii-donkey-kong-country-returns.jpg" },
+    { name: "Don King Boxing", img: "wii-don-king-boxing.jpg" },
+    { name: "Dora Crystal Kingdom", img: "wii-dora-crystal-kingdom.jpg" },
+    { name: "Driver Parallel Lines", img: "wii-driver-parallel-lines.jpg" },
+    { name: "Driver San Francisco", img: "wii-driver-san-francisco.jpg" },
+    { name: "Far Cry Vengeance", img: "wii-far-cry-vengeance.jpg" },
+    { name: "Gold's Gym Dance Workout", img: "wii-golds-gym-dance-workout.jpg" },
+    { name: "Hannah Montana Movie", img: "wii-hannah-montana-movie.jpg" },
+    { name: "Harry Potter and the Deathly Hallows", img: "wii-harry-potter-and-the-deathly-hallows.jpg" },
+    { name: "Ice Age 3", img: "wii-ice-age-3.jpg" },
+    { name: "Ice Age 4 Continental Drift Arctic Games", img: "wii-ice-age-4-continental-drift-arctic-games.jpg" },
+    { name: "Iron Man", img: "wii-iron-man.jpg" },
+    { name: "Just Dance Best Of", img: "wii-just-dance-best-of.jpg" },
+    { name: "Kawasaki Jet Ski", img: "wii-kawasaki-jet-ski.jpg" },
+    { name: "Kawasaki Snowmobiles", img: "wii-kawasaki-snowmobiles.jpg" },
+    { name: "Kung Fu Panda", img: "wii-kfp.jpg" },
+    { name: "Kung Fu Panda 2", img: "wii-kung-fu-panda-2.jpg" },
+    { name: "Kung Fu Panda Legendary Warriors", img: "wii-kung-fu-panda-legendary-warriors.jpg" },
+    { name: "LEGO Indiana Jones The Original Adventures", img: "wii-lego-indiana-jones-the-original-adventures.jpg" },
+    { name: "Lost in Blue Shipwrecked", img: "wii-lost-in-blue-shipwrecked.jpg" },
+    { name: "Madagascar 2: Escape 2 Africa", img: "wii-madagascar-2.jpg" },
+    { name: "Magical Carpet", img: "wii-magical-carpet.jpg" },
+    { name: "Mario and Sonic at the Olympic Games", img: "wii-mario-and-sonic-at-the-olympic-games.jpg" },
+    { name: "Mario Kart Wii", img: "wii-mario-kart-wii.jpg" },
+    { name: "Mario Party 8", img: "wii-mario-party-8.jpg" },
+    { name: "Mario Tennis GC", img: "wii-mario-tennis-gc.jpg" },
+    { name: "Marvel Ultimate Alliance 2", img: "wii-marvel-ultimate-alliance-2.jpg" },
+    { name: "Margo's Word Brain", img: "wii-margos-word-brain.jpg" },
+    { name: "Monster Jam", img: "wii-monster-jam.jpg" },
+    { name: "Monster Trux Offroad", img: "wii-monster-trux-offroad.jpg" },
+    { name: "Monsters VS Aliens", img: "wii-monsters-vs-aliens.jpg" },
+    { name: "More Game Party", img: "wii-more-game-party.jpg" },
+    { name: "MotoGP", img: "wii-motogp.jpg" },
+    { name: "NARUTO Clash of Ninja Revolution 2", img: "wii-naruto-clash-of-ninja-revolution-2.jpg" },
+    { name: "New Super Mario Bros Wii", img: "wii-new-super-mario-bros-wii.jpg" },
+    { name: "Overlord Dark Legend", img: "wii-overlord-dark-legend.jpg" },
+    { name: "RVL Wii Music", img: "wii-rvl-wii-music.jpg" },
+    { name: "Shrek Forever After", img: "wii-shrek-forever-after.jpg" },
+    { name: "Sonic and the Secret Rings", img: "wii-sonic-and-the-secret-rings.jpg" },
+    { name: "Spider-Man Edge of Time", img: "wii-spider-man-edge-of-time.jpg" },
+    { name: "TMNT Smash-Up", img: "wii-tmnt-smash-up.jpg" },
+    { name: "Transformers Cybertron Adventures", img: "wii-transformers-cybertron-adventures.jpg" },
+    { name: "WarioWare Smooth Moves", img: "wii-warioware-smooth-moves.jpg" },
+    { name: "Wii Party", img: "wii-wii-party.jpg" },
+    { name: "Wii Sports Resort 2", img: "wii-wsp2.jpg" },
+	{ name: "We Love Golf!", img: "wii-golf.jpg" },
+    { name: "Yamaha Supercross", img: "wii-yamaha-supercross.jpg" },
+];
+
+
+// قائمة ألعاب Xbox 360
+const xboxGames = [
+    { name: "Angry Birds", img: "xbox-angry-birds.jpg" },
+    { name: "Army of Two The Devils Cartel", img: "xbox-army-of-two-the-devils-cartel.jpg" },
+    { name: "Assassins Creed 4 Black Flag", img: "xbox-assassins-creed-4-black-flag.jpg" },
+    { name: "Assassins Creed Revelations", img: "xbox-assassins-creed-revelations.jpg" },
+    { name: "Assassins Creed Rogue", img: "xbox-assassins-creed-rogue.jpg" },
+    { name: "Avengers Kinect", img: "xbox-avengers-kinect.jpg" },
+    { name: "Batman Arkham City", img: "xbox-batman-arkham-city.jpg" },
+    { name: "Batman Origins", img: "xbox-batman-origins.jpg" },
+    { name: "Battlefield Hardline", img: "xbox-battlefield-hardline.jpg" },
+    { name: "Battleship", img: "xbox-battleship.jpg" },
+    { name: "BEN 10 Galactic Racing", img: "xbox-ben-10-galactic-racing.jpg" },
+    { name: "Blood Drive", img: "xbox-blood-drive.jpg" },
+    { name: "Blur", img: "xbox-blur.jpg" },
+    { name: "Burnout Paradise The Ultimate Box", img: "xbox-burnout-paradise-the-ultimate-box.jpg" },
+	{ name: "Call of Duty: Black Ops II", img: "xbox-cod-bo2.jpg" },
+    { name: "Call of Duty Black Ops 3", img: "xbox-call-of-duty-black-ops-3.jpg" },
+    { name: "Cars 2", img: "xbox-cars-2.jpg" },
+    { name: "Crash Mind Over Mutant", img: "xbox-crash-mind-over-mutant.jpg" },
+    { name: "Crash of the Titans", img: "xbox-crash-of-the-titans.jpg" },
+    { name: "Crysis 2", img: "xbox-crysis-2.jpg" },
+    { name: "Dark Siders 2", img: "xbox-dark-siders-2.jpg" },
+    { name: "DmC: Devil May Cry", img: "xbox-dmc-devil-may-cry.jpg" },
+    { name: "Dragon Age Inquisition", img: "xbox-dragon-age-inquisition.jpg" },
+    { name: "Escape Dead Island", img: "xbox-escape-dead-island.jpg" },
+    { name: "Far Cry 4", img: "xbox-far-cry-4.jpg" },
+    { name: "FIFA 19", img: "xbox-fifa-19.jpg" },
+    { name: "Fifa Street", img: "xbox-fifa-street.jpg" },
+    { name: "Forza Horizon 2", img: "xbox-forza-horizon-2.jpg" },
+    { name: "Fruit Ninja Kinect", img: "xbox-fruit-ninja-kinect.jpg" },
+    { name: "Gears of War 3", img: "xbox-gears-of-war-3.jpg" },
+    { name: "Ghost Recon", img: "xbox-ghost-recon.jpg" },
+    { name: "GTA V Grand Theft Auto 5", img: "xbox-grand-theft-auto-v2.jpg" },
+    { name: "Green Lantern", img: "xbox-green-lantern.jpg" },
+    { name: "hit man", img: "xbox-hit-man.jpg" },
+    { name: "Injustice Gods Among Us Ultimate", img: "xbox-injustice-gods-among-us-ultimate.jpg" },
+    { name: "Jillian Michaels Fitness Adventure 2012", img: "xbox-jillian-michaels-fitness-adventure-2012.jpg" },
+    { name: "Joy Ride", img: "xbox-joy-ride.jpg" },
+    { name: "Just Dance 2018", img: "xbox-just-dance-2018.jpg" },
+    { name: "Just Dance 2019", img: "xbox-just-dance-2019.jpg" },
+    { name: "kingdoms of amalur reckoning", img: "xbox-kingdoms-of-amalur-reckoning.jpg" },
+    { name: "kinect adventure", img: "xbox-kinect-adventure.jpg" },
+    { name: "Kinect cabella adventure camp", img: "xbox-kinect-cabella-adventure-camp.jpg" },
+    { name: "Kinect Dance Central 2", img: "xbox-kinect-dance-cent-2.jpg" },
+    { name: "Kinect Joy Rider", img: "xbox-kinect-joy-rider.jpg" },
+    { name: "Kinect motion sports adrenaline", img: "xbox-kinect-motion-sports-adrenaline.jpg" },
+    { name: "Kinect ONCEUPON MONSTER", img: "xbox-kinect-onceupon-monster.jpg" },
+    { name: "Kinect Rush", img: "xbox-kinect-rush.jpg" },
+    { name: "Kinect SPORTS 1", img: "xbox-kinect-sports-1.jpg" },
+    { name: "Kinect SPORTS 2", img: "xbox-kinect-sports-2.jpg" },
+    { name: "kungfubanda", img: "xbox-kungfubanda.jpg" },
+    { name: "Mafia II", img: "xbox-mafia-ii.jpg" },
+    { name: "Max Payne 3", img: "xbox-max-payne-3.jpg" },
+    { name: "Metal Gear Solid V Ground Zeroes", img: "xbox-metal-gear-solid-v-ground-zeroes.jpg" },
+    { name: "Mortal Kombat Komplete Edition", img: "xbox-mortal-kombat-komplete-edition.jpg" },
+    { name: "Motorcycle Club", img: "xbox-motorcycle-club.jpg" },
+    { name: "Naruto shippuden ninja storm 3", img: "xbox-naruto-shippuden-ninja-storm3.jpg" },
+    { name: "NBA 2K18", img: "xbox-nba-2k18.jpg" },
+    { name: "Need for Speed Most Wanted", img: "xbox-need-for-speed-most-wanted.jpg" },
+    { name: "Need For Speed Shift 2", img: "xbox-need-for-speed-shift-2.jpg" },
+    { name: "Need.for.Speed.Hot.Pursuit", img: "xbox-need-for-speed-hot-pursuit-pal.jpg" },
+    { name: "ninja tirtels danger of ooze", img: "xbox-ninja-tirtels-danger-of-ooze.jpg" },
+    { name: "PES 13 ", img: "xbox-pes-13-arabic.jpg" },
+    { name: "PES 2018", img: "xbox-pes-2018.jpg" },
+    { name: "PowerUp Heroes", img: "xbox-powerup-heroes.jpg" },
+    { name: "Prince of Persia: The Forgotten Sands", img: "xbox-prince-of-prica.jpg" },
+    { name: "Prototype 2", img: "xbox-prototype-2.jpg" },
+    { name: "Resident Evil 6", img: "xbox-resident-evil-6.jpg" },
+    { name: "Resident Evil Operation Raccoon City", img: "xbox-resident-evil-operation-raccoon-city.jpg" },
+    { name: "Resident Evil Remake", img: "xbox-resident-evil-remake.jpg" },
+    { name: "Rise of the Tomb Raider", img: "xbox-rise-of-tomp-raider.jpg" },
+    { name: "singularity", img: "xbox-singularity.jpg" },
+    { name: "sleeping dogs", img: "xbox-sleeping-dogs.jpg" },
+    { name: "spongybob", img: "xbox-spongybob.jpg" },
+    { name: "Star Wars", img: "xbox-star-wars.jpg" },
+    { name: "Steel Battalion Heavy Armor", img: "xbox-steel-battalion-heavy-armor.jpg" },
+    { name: "Tekken6", img: "xbox-tekken6.jpg" },
+    { name: "The Amazing Spiderman", img: "xbox-the-amazing-spiderman.jpg" },
+	{ name: "The Amazing Spider-Man 2", img: "xbox-amazing-spider-man-2.jpg" },
+    { name: "Top Spin 4", img: "xbox-top-spin-4.jpg" },
+    { name: "W2K 2017", img: "xbox-w2k-2017.jpg" },
+    { name: "Watch Dogs", img: "xbox-watch-dogs.jpg" },
+	{ name: "Zumba Fitness Core", img: "xbox-zumba-fitness.jpg" },
+
+];
+
+// قائمة الإكسسوارات
+const accessoriesData = [
+    { name: "DualShock 4 Controller", img: "acc-dualshock-4.jpg", price: "450" },
+    { name: "PS5 DualSense Controller", img: "acc-dualsense.jpg", price: "800" },
+    { name: "Xbox 360 Wireless Controller", img: "acc-xbox-controller.jpg", price: "350" }
+    // عشان تضيف إكسسوار جديد، حط فاصلة (,) في آخر السطر اللي فوق، وبعدين السطر الجديد بالشكل ده:
+    // { name: "اسم الإكسسوار", img: "acc-اسم-الصورة.jpg", price: "السعر" }
+];
+
 // =========================================
 // 6. ربط القوايم بالصفحات وتحديد السعر الموحد
 // =========================================
@@ -606,6 +784,18 @@ if (window.location.pathname.includes("PSPgames.html")) {
     gamesData = ps5Games; 
     consoleName = "PS5";
     currentPrice = "50"; 
+} else if (window.location.pathname.includes("Wiigames.html")) {
+    gamesData = wiiGames; 
+    consoleName = "Wii";
+    currentPrice = "30"; 
+} else if (window.location.pathname.includes("Xboxgames.html")) {
+    gamesData = xboxGames; 
+    consoleName = "Xbox 360";
+    currentPrice = "30";
+} else if (window.location.pathname.includes("accessories.html")) {
+    gamesData = accessoriesData; 
+    consoleName = "Accessory";
+    currentPrice = "0"; // السعر الافتراضي مش مهم هنا لأن كل إكسسوار ليه سعره
 } else {
     gamesData = ps2Games;
     consoleName = "PS2";
